@@ -1,1 +1,24 @@
+{
+"positive_weight": 1.0,
+"negative_weight": -1.0,
 
+"intensity": {
+"strong_positive": 1.4,
+"positive": 1.0,
+"mild_positive": 0.6,
+
+"strong_negative": -1.4,
+"negative": -1.0,
+"mild_negative": -0.6,
+
+"neutral": 0.0
+},
+
+"boost_words": {
+"very": 0.2,
+"extremely": 0.35,
+"unexpectedly": 0.15,
+"significantly": 0.25,
+"slightly": -0.05
+}
+}
