@@ -1,0 +1,43 @@
+{
+"crisis_terms": [
+"panic",
+"panic selling",
+"market crash",
+"emergency",
+"liquidity freeze",
+"credit stress",
+"default risk",
+"systemic risk",
+"margin call",
+"forced selling",
+"volatility spike",
+"flash crash",
+"yield spike",
+"bond rout",
+"capital flight",
+"geopolitical escalation",
+"severe downturn",
+"financial instability",
+"contagion risk",
+"stress indicators rising"
+],
+
+"crisis_boosters": [
+"unexpectedly",
+"sudden",
+"sharp",
+"violent",
+"accelerating",
+"escalating",
+"unprecedented"
+],
+
+"max_risk_mode_triggers": [
+"limit down",
+"halted",
+"circuit breaker",
+"emergency measures",
+"central bank intervention"
+]
+}
+	
