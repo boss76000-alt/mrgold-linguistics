@@ -1,1 +1,47 @@
+{
+"positive": [
+"rally",
+"surge",
+"strengthens",
+"rebounds",
+"recovers",
+"beats expectations",
+"optimism",
+"bullish",
+"record high",
+"momentum",
+"improves",
+"advances",
+"soars",
+"upbeat"
+],
+"negative": [
+"slump",
+"sell-off",
+"plunge",
+"fear",
+"defaults",
+"crisis",
+"recession",
+"pressure",
+"weakness",
+"bearish",
+"downgrade",
+"slowdown",
+"concerns",
+"risk-off"
+],
+"neutral": [
+"mixed",
+"unchanged",
+"flat",
+"steady",
+"consolidates",
+"sideways",
+"range-bound",
+"balanced",
+"stabilizes"
+]
+}
+	
 
