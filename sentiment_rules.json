@@ -1,1 +1,35 @@
-
+{
+"rules": [
+{
+"type": "boost_if_contains",
+"words": ["inflation", "cpi", "jobs report"],
+"adjustment": -0.2,
+"reason": "macro releases increase uncertainty"
+},
+{
+"type": "boost_if_streak",
+"lookback": 3,
+"direction": "positive",
+"adjustment": 0.3,
+"reason": "multiple positive headlines strengthen sentiment"
+},
+{
+"type": "boost_if_streak",
+"lookback": 3,
+"direction": "negative",
+"adjustment": -0.3,
+"reason": "multiple negative headlines reinforce bearish bias"
+},
+{
+"type": "cooldown",
+"after_extreme_move": true,
+"adjustment": -0.15,
+"reason": "extreme sentiment usually mean-reverts"
+},
+{
+"type": "limit",
+"max_positive": 1.0,
+"max_negative": -1.0
+}
+]
+}
